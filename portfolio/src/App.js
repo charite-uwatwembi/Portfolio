@@ -1,6 +1,13 @@
 import React from 'react';
 import charite from './images/charite.jpg';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import codsoft from './images/codsoft.png';
+import certa from './images/certa.png';
+import oasis from './images/oasis.png';
+import green from './images/green.png';
+import baho from './images/baho.png';
+import alu from './images/ALU.png';
+
 
 
 function App() {
@@ -48,15 +55,29 @@ function App() {
 
 
       {/* The animation div (below the content) */}
-      <div className="animation">
+      <div className="animation px-40">
         <h3 className="text-center text-xl mb-10">Worked with the best of the best</h3>
         <div className="slider">
           <div className="slider-track flex animate-scroll">
-            <div className="logo p-5">InternQuest</div>
-            <div className="logo p-5">Theo</div>
-            <div className="logo p-5">Mulla</div>
-            <div className="logo p-5">Kayko</div>
-            <div className="logo p-5">Upwork</div>
+            <div className="logo p-5">
+              <img src={green} alt="Green" className="w-40" />
+            </div>
+            <div className="logo p-5">
+              <img src={oasis} alt="Oasis" className="w-40" />
+            </div>
+            <div className="logo p-5">
+              <img src={alu} alt="ALU" className="w-40" />
+            </div>
+            <div className="logo p-5">
+              <img src={certa} alt="Certa" className="w-40" />
+            </div>
+            <div className="logo p-5"> 
+              <img src={codsoft} alt="CodSoft" className="w-40" /></div>
+            <div className="logo flex items-center">
+              <img src={baho} alt="Baho" className="w-40" /><em className="font-serif">BahoRwanda</em>
+            </div>
+            
+            <div className="logo p-5">Career Sprint</div>
             {/* Add more logos if needed */}
           </div>
         </div>

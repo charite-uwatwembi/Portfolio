@@ -13,5 +13,5 @@
   
   .slider-track {
     display: flex;
-    animation: scroll 10s linear infinite;
+    animation: scroll 25s linear infinite;
   }
