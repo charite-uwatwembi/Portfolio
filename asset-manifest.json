@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/charite-uwatwembi/Portfolio/static/css/main.e71e1ac6.css",
+    "main.js": "/charite-uwatwembi/Portfolio/static/js/main.50dba911.js",
+    "static/js/453.1407b060.chunk.js": "/charite-uwatwembi/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/charite3.png": "/charite-uwatwembi/Portfolio/static/media/charite3.d592eb1070fb860648b6.png",
+    "static/media/charite1.png": "/charite-uwatwembi/Portfolio/static/media/charite1.0ab3c83791d397e7229d.png",
+    "static/media/charite2.png": "/charite-uwatwembi/Portfolio/static/media/charite2.e12d3d76f120bae1370f.png",
+    "static/media/codsoft.png": "/charite-uwatwembi/Portfolio/static/media/codsoft.0fec9a4c283232eaa92e.png",
+    "static/media/careersprint.png": "/charite-uwatwembi/Portfolio/static/media/careersprint.fca618cb8bf6a4c70c6e.png",
+    "static/media/baho.png": "/charite-uwatwembi/Portfolio/static/media/baho.c8ac498459dfff30ff3d.png",
+    "static/media/certa.png": "/charite-uwatwembi/Portfolio/static/media/certa.e62bce439b91ec8a9205.png",
+    "static/media/oasis.png": "/charite-uwatwembi/Portfolio/static/media/oasis.4b6808b95137d3fda241.png",
+    "static/media/ALU.png": "/charite-uwatwembi/Portfolio/static/media/ALU.bd9d78d12b13ef4d980c.png",
+    "index.html": "/charite-uwatwembi/Portfolio/index.html",
+    "main.e71e1ac6.css.map": "/charite-uwatwembi/Portfolio/static/css/main.e71e1ac6.css.map",
+    "main.50dba911.js.map": "/charite-uwatwembi/Portfolio/static/js/main.50dba911.js.map",
+    "453.1407b060.chunk.js.map": "/charite-uwatwembi/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e71e1ac6.css",
+    "static/js/main.50dba911.js"
+  ]
+}
