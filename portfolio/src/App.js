@@ -7,6 +7,7 @@ import oasis from './images/oasis.png';
 import green from './images/green.png';
 import baho from './images/baho.png';
 import alu from './images/ALU.png';
+import career from './images/careersprint.png';
 
 
 
@@ -55,33 +56,79 @@ function App() {
 
 
       {/* The animation div (below the content) */}
-      <div className="animation px-40">
-        <h3 className="text-center text-xl mb-10">Worked with the best of the best</h3>
-        <div className="slider">
-          <div className="slider-track flex animate-scroll">
-            <div className="logo p-5">
-              <img src={green} alt="Green" className="w-40" />
-            </div>
-            <div className="logo p-5">
-              <img src={oasis} alt="Oasis" className="w-40" />
-            </div>
-            <div className="logo p-5">
-              <img src={alu} alt="ALU" className="w-40" />
-            </div>
-            <div className="logo p-5">
-              <img src={certa} alt="Certa" className="w-40" />
-            </div>
-            <div className="logo p-5"> 
-              <img src={codsoft} alt="CodSoft" className="w-40" /></div>
-            <div className="logo flex items-center">
-              <img src={baho} alt="Baho" className="w-40" /><em className="font-serif">BahoRwanda</em>
-            </div>
-            
-            <div className="logo p-5">Career Sprint</div>
-            {/* Add more logos if needed */}
-          </div>
-        </div>
+      <div className="animation px-4 md:px-20 lg:px-40">
+  <h3 className="text-center text-lg md:text-xl mb-5 md:mb-10">Worked with the best of the best</h3>
+  <div className="slider overflow-hidden">
+    <div className="slider-track flex items-center space-x-4">
+      <div className="logo p-2 md:p-5">
+        <img src={green} alt="Green" className="w-24 md:w-32 lg:w-40" />
       </div>
+      <div className="logo p-2 md:p-5">
+        <img src={oasis} alt="Oasis" className="w-24 md:w-32 lg:w-40" />
+      </div>
+      <div className="logo p-2 md:p-5">
+        <img src={alu} alt="ALU" className="w-24 md:w-32 lg:w-40" />
+      </div>
+      <div className="logo p-2 md:p-5">
+        <img src={certa} alt="Certa" className="w-24 md:w-32 lg:w-40" />
+      </div>
+      <div className="logo p-2 md:p-5"> 
+        <img src={codsoft} alt="CodSoft" className="w-24 md:w-32 lg:w-40" />
+      </div>
+      <div className="logo flex p-2 md:p-5 items-center pr-16 md:pr-32">
+        <img src={baho} alt="Baho" className="w-24 md:w-32 lg:w-40" />
+        <em className="font-serif hidden md:block">BahoRwanda</em>
+      </div>
+      <div className="logo flex p-2 md:p-5">
+        <img src={career} alt="Career" className="w-24 md:w-32 lg:w-40" />
+      </div>
+      {/* Duplicate the logos to create a seamless loop */}
+      <div className="logo p-2 md:p-5">
+        <img src={green} alt="Green" className="w-24 md:w-32 lg:w-40" />
+      </div>
+      <div className="logo p-2 md:p-5">
+        <img src={oasis} alt="Oasis" className="w-24 md:w-32 lg:w-40" />
+      </div>
+      <div className="logo p-2 md:p-5">
+        <img src={alu} alt="ALU" className="w-24 md:w-32 lg:w-40" />
+      </div>
+      <div className="logo p-2 md:p-5">
+        <img src={certa} alt="Certa" className="w-24 md:w-32 lg:w-40" />
+      </div>
+      <div className="logo p-2 md:p-5"> 
+        <img src={codsoft} alt="CodSoft" className="w-24 md:w-32 lg:w-40" />
+      </div>
+      <div className="logo flex p-2 md:p-5 items-center pr-16 md:pr-32">
+        <img src={baho} alt="Baho" className="w-24 md:w-32 lg:w-40" />
+        <em className="font-serif hidden md:block">BahoRwanda</em>
+      </div>
+      <div className="logo flex p-2 md:p-5">
+        <img src={career} alt="Career" className="w-24 md:w-32 lg:w-40" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<style jsx>{`
+  .slider {
+    width: 100%;
+    position: relative;
+  }
+  .slider-track {
+    display: flex;
+    width: calc(200%); /* Wider track to ensure smooth scrolling */
+    animation: scroll 20s linear infinite;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+`}</style>
+
     </div>
   );
 }
