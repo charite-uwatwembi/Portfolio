@@ -296,7 +296,7 @@ function App() {
 
 
 {/* what i am good at */}
-<div   className="flex flex-col space-y-6  md:flex-row justify-between items-center bg-black text-white space-x-14 p-8 md:p-12 rounded-3xl shadow-lg w-4/5 border border-gray-600 mx-auto my-10">
+<div   className="flex flex-col space-y-3  md:flex-row justify-between items-center bg-black text-white space-x-4 p-8 md:p-12 rounded-3xl shadow-lg w-4/5 border border-gray-600 mx-auto my-10">
       
       
       {/* Text Section */}
@@ -304,25 +304,56 @@ function App() {
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           What i am <em className="italic font-thin">good at?</em>
         </h2>
-        <ul className="text-xl  flex flex-col items-centre space-y-6 md:flex-row md:space-x-4">
-          <li className="flex flex-col items-center space-y-4">
-            <h1 className='font-bold'>Web Development</h1>
-            <p className='text-base'>Conducting user research to inform a user-centric product.</p>
-          </li>
-          <li className="flex flex-col items-center space-y-4">
-            <h1 className='font-bold'>Product Strategy</h1>
-            <p className='text-base'>Crafting a strategic roadmap to align product design with business vision.</p>
-          </li>
-          <li className="flex flex-col items-center space-y-4">
-            <h1 className='font-bold'>UI/UX Design</h1>
-            <p className='text-base'>Designing sleek, intuitive interfaces that delight users & elevate products.</p>
-          </li>
-          <li className="flex flex-col items-center space-y-4">
-            <h1 className='font-bold'>Design Systems</h1>
-            <p className='text-base'>Scalable design frameworks to boost consistency and efficiency.</p>
-          </li>
-          
-        </ul>
+        
+        <div className="flex flex-col items-center space-y-6 md:flex-row md:space-x-1 md:space-y-0">
+  <div className="border border-gray-600 p-4 rounded-lg bg-black w-full md:w-1/2 lg:w-1/3">
+    <h1 className="font-bold text-2xl text-white mb-4 text-center">Front-End Web Development</h1>
+    <ul className="text-sm text-white space-y-1 list-disc list-inside">
+      <h2 className="font-bold">Languages/Frameworks:</h2>
+      <li>React.js</li>
+      <li>Tailwind</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </div>
+
+  <div className="border border-gray-600 p-4 rounded-lg bg-black w-full md:w-1/2 lg:w-1/3">
+    <h1 className="font-bold text-2xl text-white mb-4 text-center">Back-End Development</h1>
+    <ul className="text-sm text-white space-y-1 list-disc list-inside">
+      <h2 className="font-bold">Languages/Frameworks:</h2>
+      <li>FastAPI (Python)</li>
+      <li>Firebase</li>
+      <li>Express.JS</li>
+      <li>REST APIs</li>
+      <li>Node.JS</li>
+    </ul>
+  </div>
+
+  <div className="border border-gray-600 p-4 rounded-lg bg-black w-full md:w-1/2 lg:w-1/3">
+    <h1 className="font-bold text-2xl text-white mb-4 text-center">Machine Learning & AI</h1>
+    <ul className="text-sm text-white space-y-1 list-disc list-inside">
+      <h2 className="font-bold">Languages/Frameworks:</h2>
+      <li>Python (scikit-learn, TensorFlow)</li>
+      <li>pandas</li>
+      <li>NumPy</li>
+      <li>FastAPI (for ML model deployment)</li>
+    </ul>
+  </div>
+
+  <div className="border border-gray-600 p-4 rounded-lg bg-black w-full md:w-1/2 lg:w-1/3">
+    <h1 className="font-bold text-2xl text-white mb-4 text-center">Mobile App Development</h1>
+    <ul className="text-sm text-white space-y-1 list-disc list-inside">
+      <h2 className="font-bold">Languages/Frameworks:</h2>
+      <li>Flutter (for mobile apps)</li>
+      <li>Firebase (backend)</li>
+      <li>Dart (Flutter)</li>
+      <li>React Native (for mobile apps)</li>
+    </ul>
+  </div>
+</div>
+
+
         <button className="bg-black text-white border border-gray-600 py-2 px-4  md:px-64 rounded-xl font-medium shadow hover:bg-gray-700 transition duration-300"
         onClick={() => window.location.href = 'mailto:chariteuwatwembi@gmail.com?subject=Get%20in%20Touch&body=Hello%20Charite%2C%20I%27d%20like%20to%20get%20in%20touch%20with%20you!'}
         >
