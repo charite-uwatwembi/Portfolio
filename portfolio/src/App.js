@@ -134,7 +134,7 @@ function App() {
   </div>
 </div>
 
-<style jsx>{`
+<style>{`
   .slider {
     width: 100%;
     overflow: hidden;
@@ -156,6 +156,7 @@ function App() {
     }
   }
 `}</style>
+
 
 {/* what makes me different */}
 <div   className="flex flex-col md:flex-row justify-between items-center bg-black text-white space-x-14 p-8 md:p-12 rounded-3xl shadow-lg w-4/5 border border-gray-600 mx-auto my-10">
