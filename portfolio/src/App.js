@@ -265,7 +265,7 @@ function App() {
         </h2>
         <ul className="text-xl  flex flex-col items-centre space-y-6 md:flex-row md:space-x-4">
           <li className="flex flex-col items-center space-y-4">
-            <h1 className='font-bold'>Product Discovery</h1>
+            <h1 className='font-bold'>Web Development</h1>
             <p className='text-base'>Conducting user research to inform a user-centric product.</p>
           </li>
           <li className="flex flex-col items-center space-y-4">
