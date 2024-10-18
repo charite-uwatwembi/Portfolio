@@ -17,6 +17,7 @@ import video from './images/video.mp4';
 import greenRwanda from './images/green.png';
 import Baho from './images/bahoF.png';
 import produce from './images/produce.webp';
+import lasles from './images/lasles.png';
 
 
 
@@ -234,6 +235,36 @@ function App() {
   </a>
 
   {/* Fourth Work Item */}
+  <a href="https://charitecloned.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
+    <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
+      <div className="relative h-full w-full aspect-[16/9]">
+        <img src={meta} alt="Meta Clone" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+      </div>
+      <div className="absolute bottom-6 left-0 w-full p-6 space-y-3 bg-gradient-to-t from-bottom-black to-transparent">
+        <h3 className="text-white font-extrabold text-xl">Meta Clone</h3>
+        <p className="text-gray-200 font-semibold text-sm hidden md:block">
+          A clone of Meta's interface with modern design and functionality.
+        </p>
+      </div>
+      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
+    </div>
+  </a>
+  {/* fiveth Work Item */}
+  <a href="https://lslsvpn.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
+    <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
+      <div className="relative h-full w-full aspect-[16/9]">
+        <img src={lasles} alt="Meta Clone" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+      </div>
+      <div className="absolute bottom-6 left-0 w-full p-6 space-y-3 bg-gradient-to-t from-bottom-black to-transparent">
+        <h3 className="text-black font-extrabold text-xl">LaslesVPN Clone</h3>
+        <p className="text-black font-semibold text-sm hidden md:block">
+          A clone of LaslesVPN's interface with modern design and functionality.
+        </p>
+      </div>
+      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
+    </div>
+  </a>
+  {/* sixth Work Item */}
   <a href="https://charitecloned.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
