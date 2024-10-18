@@ -46,7 +46,7 @@ function App() {
     <div className="lg:flex place-items-center justify-between">
       <div className="flex flex-col">
         <h1 className="text-3xl font-bold animate-slide-up">Hey, I'm Charite</h1>
-        <p className="text-sm m-2 animate-slide-up">Product (UX) Designer</p>
+        <p className="text-sm m-2 animate-slide-up">  Software Engineer | Web Developer</p>
       </div>
       <div className="flex space-x-4 ml-5 items-center animate-slide-up mt-5">
         <div className="py-1 border border-gray-600 px-1 rounded-xl">
@@ -59,9 +59,13 @@ function App() {
             <FaLinkedin size={30} />
           </a>
         </div>
-        <button className="bg-black text-white px-4 rounded-xl font-medium border border-gray-600 py-2 shadow">
-          Get In Touch
-        </button>
+        <button
+  className="bg-black text-white px-4 rounded-xl font-medium border border-gray-600 py-2 shadow hover:bg-gray-700 hover:scale-105 transition-transform duration-300"
+  onClick={() => window.location.href = 'mailto:chariteuwatwembi@gmail.com?subject=Get%20in%20Touch&body=Hello%20Charite%2C%20I%27d%20like%20to%20get%20in%20touch%20with%20you!'}
+>
+  Get In Touch
+</button>
+
       </div>
     </div>
 
@@ -168,14 +172,18 @@ function App() {
   <p className="text-base animate-slide-up-p mb-4">
     <span>I craft unique product experiences that reflect a brand's personality and objectives. With a solid background in software engineering, I blend innovation with practicality, staying on top of design trends to ensure all projects are visually stunning and functionally flawless.</span>
   </p>
-  <button className="bg-black text-white border border-gray-600 py-2 px-4 rounded-xl font-medium shadow hover:bg-gray-700 transition duration-300 animate-slide-up-button">
-    <span>Browse My Work &rarr;</span>
-  </button>
+  <button
+  className="bg-black text-white border border-gray-600 py-2 px-4 rounded-xl font-medium shadow hover:bg-gray-700 transition duration-300 animate-slide-up-button"
+  onClick={() => document.getElementById('work-section').scrollIntoView({ behavior: 'smooth' })}
+>
+  <span>Browse My Work &rarr;</span>
+</button>
+
 </div>
     </div>
 
     {/* my work */}
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-28 py-10">
+    <div id="work-section" className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-28 py-10">
   {/* First Work Item */}
   <a href="https://greenrwanda.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
@@ -273,7 +281,9 @@ function App() {
           </li>
           
         </ul>
-        <button className="bg-black text-white border border-gray-600 py-2 px-4  md:px-64 rounded-xl font-medium shadow hover:bg-gray-700 transition duration-300">
+        <button className="bg-black text-white border border-gray-600 py-2 px-4  md:px-64 rounded-xl font-medium shadow hover:bg-gray-700 transition duration-300"
+        onClick={() => window.location.href = 'mailto:chariteuwatwembi@gmail.com?subject=Get%20in%20Touch&body=Hello%20Charite%2C%20I%27d%20like%20to%20get%20in%20touch%20with%20you!'}
+        >
           Get in touch &rarr;
         </button>
       </div>
