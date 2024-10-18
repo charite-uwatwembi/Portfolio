@@ -85,3 +85,107 @@
     transform: translateX(-100%);
   }
 }
+
+/* aniamted sliders */
+.animate-slide-up {
+  animation: slide-up 1s ease-out;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* animate image */
+
+.animate-slide-up-image {
+  animation: slide-up-image 1s ease-out;
+  animation-delay: 0.5s;
+  position: relative;
+}
+@media (max-width: 640px) {
+  .animate-slide-up-image {
+    border-radius: 0;
+  }
+}
+
+@keyframes slide-up-image {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* animate what makes  me different */
+.animate-slide-up-h2 {
+  animation: slide-up 1s ease-out;
+  animation-delay: 0.5s;
+}
+
+.animate-slide-up-p {
+  animation: slide-up 1s ease-out;
+  animation-delay: 1s;
+}
+
+.animate-slide-up-button {
+  animation: slide-up 1s ease-out;
+  animation-delay: 1.5s;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* animate screen */
+.animate {
+  animation: slide-up 1s ease-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up-content {
+  animation: slide-up-content 1s ease-out;
+  animation-delay: 0.5s;
+}
+
+.animate-slide-up-content span {
+  animation: slide-up-content 1s ease-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes slide-up-content {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
