@@ -18,6 +18,7 @@ import greenRwanda from './images/green.png';
 import Baho from './images/bahoF.png';
 import produce from './images/produce.webp';
 import lasles from './images/lasles.png';
+import cafe from './images/cafe.png';
 
 
 
@@ -187,15 +188,17 @@ function App() {
     {/* my work */}
     <div id="work-section" className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-28 py-10">
   {/* First Work Item */}
-  <a href="https://greenrwanda.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
+  
+
+  <a href="https://gtcf.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
-        <img src={greenRwanda} alt="GreenRwanda" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+        <img src={cafe} alt="Meta Clone" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
       </div>
       <div className="absolute bottom-6 left-0 w-full p-6 space-y-3 bg-gradient-to-t from-bottom-black to-transparent">
-        <h3 className="text-white font-extrabold text-xl">GreenRwanda</h3>
+        <h3 className="text-white font-extrabold text-xl"><italic>Cafe</italic></h3>
         <p className="text-gray-200 font-semibold text-sm hidden md:block">
-          A platform that connects individuals passionate about environmental sustainability, offering resources and opportunities to promote a greener Rwanda.
+          A well designed menu for a cafe restaurant.
         </p>
       </div>
       <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
@@ -203,15 +206,16 @@ function App() {
   </a>
 
   {/* Second Work Item */}
-  <a href="https://github.com/charite-uwatwembi/demo_rise360" target="_blank" rel="noopener noreferrer" className="block">
+  
+  <a href="https://charitecloned.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
-        <img src={produce} alt="RiseFarmer360" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+        <img src={meta} alt="Meta Clone" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
       </div>
       <div className="absolute bottom-6 left-0 w-full p-6 space-y-3 bg-gradient-to-t from-bottom-black to-transparent">
-        <h3 className="text-white font-extrabold text-xl">RiseFarmer360</h3>
+        <h3 className="text-white font-extrabold text-xl">Meta Clone</h3>
         <p className="text-gray-200 font-semibold text-sm hidden md:block">
-          An application designed to empower farmers in Sub-Saharan Africa by addressing key challenges they face in modernizing farming practices.
+          A clone of Meta's interface with modern design and functionality.
         </p>
       </div>
       <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
@@ -235,21 +239,8 @@ function App() {
   </a>
 
   {/* Fourth Work Item */}
-  <a href="https://charitecloned.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
-    <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
-      <div className="relative h-full w-full aspect-[16/9]">
-        <img src={meta} alt="Meta Clone" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-      </div>
-      <div className="absolute bottom-6 left-0 w-full p-6 space-y-3 bg-gradient-to-t from-bottom-black to-transparent">
-        <h3 className="text-white font-extrabold text-xl">Meta Clone</h3>
-        <p className="text-gray-200 font-semibold text-sm hidden md:block">
-          A clone of Meta's interface with modern design and functionality.
-        </p>
-      </div>
-      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
-    </div>
-  </a>
-  {/* fiveth Work Item */}
+  
+
   <a href="https://lslsvpn.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
@@ -264,21 +255,40 @@ function App() {
       <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
     </div>
   </a>
-  {/* sixth Work Item */}
-  <a href="https://charitecloned.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
+
+  {/* fiveth Work Item */}
+  <a href="https://github.com/charite-uwatwembi/demo_rise360" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
-        <img src={meta} alt="Meta Clone" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+        <img src={produce} alt="RiseFarmer360" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
       </div>
       <div className="absolute bottom-6 left-0 w-full p-6 space-y-3 bg-gradient-to-t from-bottom-black to-transparent">
-        <h3 className="text-white font-extrabold text-xl">Meta Clone</h3>
+        <h3 className="text-white font-extrabold text-xl">RiseFarmer360</h3>
         <p className="text-gray-200 font-semibold text-sm hidden md:block">
-          A clone of Meta's interface with modern design and functionality.
+          An application designed to empower farmers in Sub-Saharan Africa by addressing key challenges they face in modernizing farming practices.
         </p>
       </div>
       <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
     </div>
   </a>
+  {/* sixth Work Item */}
+  <a href="https://greenrwanda.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
+    <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
+      <div className="relative h-full w-full aspect-[16/9]">
+        <img src={greenRwanda} alt="GreenRwanda" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+      </div>
+      <div className="absolute bottom-6 left-0 w-full p-6 space-y-3 bg-gradient-to-t from-bottom-black to-transparent">
+        <h3 className="text-white font-extrabold text-xl">GreenRwanda</h3>
+        <p className="text-gray-200 font-semibold text-sm hidden md:block">
+          A platform that connects individuals passionate about environmental sustainability, offering resources and opportunities to promote a greener Rwanda.
+        </p>
+      </div>
+      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
+    </div>
+
+    
+  </a>
+  
 </div>
 
 
