@@ -217,6 +217,7 @@ function App() {
       <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
     </div>
   </a>
+  {/* Second Work Item */}
   <a href="https://develop.di25v93ak8arx.amplifyapp.com/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full ">
@@ -231,7 +232,7 @@ function App() {
       <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
     </div>
   </a>
-
+{/* Third Work Item */}
   <a href="https://gtcf.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
@@ -247,7 +248,7 @@ function App() {
     </div>
   </a>
 
-  {/* Second Work Item */}
+  {/* fourth Work Item */}
   
   <a href="https://charitecloned.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
@@ -264,7 +265,7 @@ function App() {
     </div>
   </a>
 
-  {/* Third Work Item */}
+  {/* fifth Work Item */}
   <a href="https://drive.google.com/file/d/1Xqi8ULCyy4Kjuy0ynbKeWq03A-5kbMsY/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
@@ -280,7 +281,7 @@ function App() {
     </div>
   </a>
 
-  {/* Fourth Work Item */}
+  {/* sixth Work Item */}
   
 
   <a href="https://lslsvpn.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
@@ -298,7 +299,7 @@ function App() {
     </div>
   </a>
 
-  {/* fiveth Work Item */}
+  {/* seventh Work Item */}
   <a href="https://github.com/charite-uwatwembi/demo_rise360" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
@@ -313,7 +314,7 @@ function App() {
       <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
     </div>
   </a>
-  {/* sixth Work Item */}
+  {/* 8th Work Item */}
   <a href="https://greenrwanda.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
