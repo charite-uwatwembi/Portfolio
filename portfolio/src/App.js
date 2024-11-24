@@ -6,13 +6,17 @@ import certa from './images/certa.png';
 import oasis from './images/oasis.png';
 import meta from './images/meta.webp';
 import green from './images/green1.png';
+import cinetie from './images/cinetie.png';
 import baho from './images/baho.png';
+import aisfm from './images/aisfm.png';
 import alu from './images/ALU.png';
+import aisfmbg from './images/aisfm-bg.png';
 import career from './images/careersprint.png';
 import charite2 from './images/charite2.png';
 import charite1 from './images/charite1.png';
 import charite3 from './images/charite3.png';
 import video from './images/video.mp4';
+import cine from './images/cine.png';
 // import { useEffect, useRef } from 'react';
 import greenRwanda from './images/green.png';
 import Baho from './images/bahoF.png';
@@ -103,6 +107,7 @@ function App() {
       <div className="logo p-2 md:p-5">
         <img src={green} alt="Green" className="w-20 md:w-28 lg:w-32" />
       </div>
+
       <div className="logo p-2 md:p-5">
         <img src={oasis} alt="Oasis" className="w-20 md:w-28 lg:w-32" />
       </div>
@@ -113,12 +118,20 @@ function App() {
         <img src={certa} alt="Certa" className="w-20 md:w-28 lg:w-32" />
       </div>
       <div className="logo p-2 md:p-5">
+        <img src={cinetie} alt="Green" className="w-20 mt-5 md:w-28 lg:w-32" />
+      </div>
+      <div className="logo p-2 md:p-5">
+        <img src={aisfm} alt="Green" className="w-20 md:w-28 lg:w-32" />
+      </div>
+      
+      <div className="logo p-2 md:p-5">
         <img src={codsoft} alt="CodSoft" className="w-20 md:w-28 lg:w-32" />
       </div>
       <div className="logo flex p-2 md:p-5 items-center pr-8 md:pr-16 lg:pr-20">
         <img src={baho} alt="Baho" className="w-20 md:w-28 lg:w-32" />
         <em className="font-serif hidden md:block">BahoRwanda</em>
       </div>
+      
       <div className="logo flex p-2 md:p-5">
         <img src={career} alt="Career" className="w-20 md:w-28 lg:w-32" />
       </div>
@@ -189,6 +202,35 @@ function App() {
     <div id="work-section" className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-28 py-10">
   {/* First Work Item */}
   
+
+  <a href="https://www.cinetie.com/" target="_blank" rel="noopener noreferrer" className="block">
+    <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
+      <div className="relative h-full w-full ">
+        <img src={cine} alt="Meta Clone" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+      </div>
+      <div className="absolute bottom-4 left-0 w-full p-6 space-y-3 bg-gradient-to-t from-bottom-black to-transparent">
+        <h3 className="text-white font-extrabold text-xl"><italic>cinetie</italic></h3>
+        <p className="text-gray-200 font-semibold text-sm hidden md:block">
+          A well designed platform for users to stream movies online in Africa.
+        </p>
+      </div>
+      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
+    </div>
+  </a>
+  <a href="https://develop.di25v93ak8arx.amplifyapp.com/" target="_blank" rel="noopener noreferrer" className="block">
+    <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
+      <div className="relative h-full w-full ">
+        <img src={aisfmbg} alt="Meta Clone" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+      </div>
+      <div className="absolute bottom-4 left-0 w-full p-6 space-y-3 bg-gradient-to-t from-bottom-black to-transparent">
+        <h3 className="text-white font-extrabold text-xl"><italic>Aisfm</italic></h3>
+        <p className="text-gray-200 font-semibold text-sm hidden md:block">
+          A well designed platform for users to buy and showcase movies in Africa.
+        </p>
+      </div>
+      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
+    </div>
+  </a>
 
   <a href="https://gtcf.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
