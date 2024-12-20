@@ -1,1 +1,1 @@
-My project's gallery.
+My projects gallery.
