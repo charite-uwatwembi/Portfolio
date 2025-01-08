@@ -1,1 +1,1 @@
-My projects gallery.
+My projects show on webpages.
