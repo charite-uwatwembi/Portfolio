@@ -25,6 +25,7 @@ import lasles from './images/lasles.png';
 import cafe from './images/cafe.png';
 import thinkgreen from './images/thinkgreen.png';
 import cropdisease from './images/home-dec.png';
+import think from './images/thinkg.png';
 
 
 
@@ -124,6 +125,9 @@ function App() {
       </div>
       <div className="logo p-2 md:p-5">
         <img src={aisfm} alt="Green" className="w-20 md:w-28 lg:w-32" />
+      </div>
+      <div className="logo p-2 md:p-5">
+        <img src={think} alt="Green" className="w-20 md:w-28 lg:w-32" />
       </div>
       
       <div className="logo p-2 md:p-5">
