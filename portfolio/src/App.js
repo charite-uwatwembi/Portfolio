@@ -447,7 +447,7 @@ function App() {
     <div   className='text-center space-y-10 mb-20'>
       <div className='text-center space-y-1'>
         <em className='text-xl font-serif '>U.Charite</em>
-        <p className='text-sm' >October 17, 2024</p>
+        <p className='text-sm' >January 13, 2025</p>
         <p className='text-xs'>Kigali, Rwanda</p>
       </div>
       <div><p className='text-sm font-semibold'> Kigali, Rwanda ©2024 • Proudly Built With React.JS • Designed & Developed by Charite</p></div>
