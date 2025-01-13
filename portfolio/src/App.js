@@ -23,6 +23,8 @@ import Baho from './images/bahoF.png';
 import produce from './images/produce.webp';
 import lasles from './images/lasles.png';
 import cafe from './images/cafe.png';
+import thinkgreen from './images/thinkgreen.png';
+import cropdisease from './images/home-dec.png';
 
 
 
@@ -232,7 +234,37 @@ function App() {
       <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
     </div>
   </a>
-{/* Third Work Item */}
+  {/* third Work Item */}
+  <a href="https://thinkgreenafrika.org/" target="_blank" rel="noopener noreferrer" className="block">
+    <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
+      <div className="relative h-full w-full ">
+        <img src={thinkgreen} alt="Meta Clone" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+      </div>
+      <div className="absolute bottom-6 left-0 w-full p-6 bg-gradient-to-t from-bottom-black to-transparent">
+        <h3 className="text-black font-extrabold text-xl"><italic>ThinkGreen Africa</italic></h3>
+        <p className="text-black font-semibold text-sm hidden md:block">
+        A platform for connecting top talent with premier opportunities for sustainable growth.
+        </p>
+      </div>
+      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
+    </div>
+  </a>
+  {/* 4th Work Item */}
+  <a href="https://github.com/charite-uwatwembi/crop_disease_prediction" target="_blank" rel="noopener noreferrer" className="block">
+    <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
+      <div className="relative h-full w-full ">
+        <img src={cropdisease} alt="Meta Clone" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+      </div>
+      <div className="absolute bottom-0 left-0 w-full p-6 space-y-2 bg-gradient-to-t from-bottom-black to-transparent">
+        <h3 className="text-black font-extrabold text-xl"><italic>Crop Disease Prediction</italic></h3>
+        <p className="text-black font-semibold text-sm hidden md:block">
+        A machine learning model to classify crop diseases from images, addressing agricultural challenges  through AI.
+        </p>
+      </div>
+      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
+    </div>
+  </a>
+{/* 5t Work Item */}
   <a href="https://gtcf.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
@@ -248,7 +280,7 @@ function App() {
     </div>
   </a>
 
-  {/* fourth Work Item */}
+  {/* 6th Work Item */}
   
   <a href="https://charitecloned.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
@@ -265,7 +297,7 @@ function App() {
     </div>
   </a>
 
-  {/* fifth Work Item */}
+  {/* 7th Work Item */}
   <a href="https://drive.google.com/file/d/1Xqi8ULCyy4Kjuy0ynbKeWq03A-5kbMsY/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
@@ -281,7 +313,7 @@ function App() {
     </div>
   </a>
 
-  {/* sixth Work Item */}
+  {/* 8th Work Item */}
   
 
   <a href="https://lslsvpn.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
@@ -358,6 +390,7 @@ function App() {
       <li>HTML</li>
       <li>CSS</li>
       <li>JavaScript</li>
+      <li>Next.Js</li>
     </ul>
   </div>
 
