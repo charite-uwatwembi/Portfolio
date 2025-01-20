@@ -1,4 +1,4 @@
-iimport React from 'react';
+import React from 'react';
 // import charite from './images/charite.jpg';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import codsoft from './images/codsoft.png';
