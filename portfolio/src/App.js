@@ -31,21 +31,7 @@ import think from './images/thinkg.png';
 
 
 function App() {
-  // const sections = useRef([]);
-
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver((entries) => {
-  //     entries.forEach((entry) => {
-  //       if (entry.isIntersecting) {
-  //         entry.target.classList.add('animate');
-  //       }
-  //     });
-  //   }, { threshold: 0.5 });
-
-  //   sections.current.forEach((section) => {
-  //     observer.observe(section);
-  //   });
-  // }, []);
+  
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-black text-white">
       {/* Bio and Image section */}
