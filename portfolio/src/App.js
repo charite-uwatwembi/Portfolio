@@ -26,6 +26,7 @@ import cafe from './images/cafe.png';
 import wallet from './images/wallet.png';
 import thinkgreen from './images/thinkgreen.png';
 import cropdisease from './images/home-dec.png';
+import zipline from './images/images.jpg'
 import think from './images/thinkg.png';
 
 
@@ -94,12 +95,18 @@ function App() {
   <div className="slider overflow-hidden">
     <div className="slider-track flex items-center space-x-4">
       {/* Logos */}
+      
       <div className="logo p-2 md:p-5">
         <img src={green} alt="Green" className="w-20 md:w-28 lg:w-32" />
       </div>
 
       <div className="logo p-2 md:p-5">
         <img src={oasis} alt="Oasis" className="w-20 md:w-28 lg:w-32" />
+      </div>
+
+      <div className="logo p-2 md:p-5 flex flex-row items-center gap-2">
+        <img src={zipline} alt="zip" className="w-10 md:w-18 lg:w-22" />
+        <p className='font-bold'>Zipline</p>
       </div>
       <div className="logo p-2 md:p-5">
         <img src={alu} alt="ALU" className="w-20 md:w-28 lg:w-32" />
@@ -167,14 +174,14 @@ function App() {
 
 
 {/* what makes me different */}
-<div   className="flex flex-col md:flex-row justify-between items-center bg-black text-white space-x-14 p-8 md:p-12 rounded-3xl shadow-lg w-4/5 border border-gray-600 mx-auto my-10">
+<div   className="flex flex-col  md:flex-row justify-between items-left bg-black text-white  p-8 md:py-12  rounded-3xl shadow-lg w-4/5 border border-gray-600  my-10">
       {/* Avatar/Image Section */}
       <div className="flex-shrink-0 mb-6 md:mb-0 md:mr-6">
         <img src={charite1} alt="Avatar" className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover" />
       </div>
       
       {/* Text Section */}
-      <div className="items-center md:text-left overflow-hidden animate-slide-up-content">
+      <div className="items-center lg:text-left text-center overflow-hidden animate-slide-up-content">
   <h2 className="text-3xl md:text-4xl font-bold mb-4 animate-slide-up-h2">
     What makes me <em className="italic font-thin">different?</em>
   </h2>
