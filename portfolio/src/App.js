@@ -28,11 +28,20 @@ import thinkgreen from './images/thinkgreen.png';
 import cropdisease from './images/home-dec.png';
 import zipline from './images/images.jpg'
 import think from './images/thinkg.png';
+import { useState, useEffect } from 'react';
 
 
 
 function App() {
-  
+  const [dateTime, setDateTime] = useState(new Date());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setDateTime(new Date());
+    }, 1000);
+    
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-black text-white">
       {/* Bio and Image section */}
@@ -443,16 +452,16 @@ function App() {
     </div>
 
 {/* footer */}
-    <div   className='text-center space-y-10 mb-20'>
+    <div className='text-center space-y-10 mb-20'>
       <div className='text-center space-y-1'>
         <em className='text-xl font-serif '>U.Charite</em>
-        // <p className='text-sm' >February, 2025</p>
+        <p className='text-sm'>{dateTime.toLocaleString()}</p>
         <p className='text-xs'>Kigali, Rwanda</p>
       </div>
-      <div><p className='text-sm font-semibold'> Kigali, Rwanda ©2025 • Proudly Built With React.JS • Designed & Developed by Charite</p></div>
+      <div>
+        <p className='text-sm font-semibold'>Kigali, Rwanda ©{dateTime.getFullYear()} • Proudly Built With React.JS • Designed & Developed by Charite</p>
+      </div>
     </div>
-
-
     </div>
   );
 }
