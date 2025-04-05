@@ -1,1 +1,1 @@
-My portfolio, showcasing my projects.
+My portfolio here, showcasing my projects.
