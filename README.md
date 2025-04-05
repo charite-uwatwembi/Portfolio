@@ -1,1 +1,1 @@
-This is a collection of webpages, showcasing my projects.
+My portfolio, showcasing my projects.
