@@ -28,6 +28,7 @@ import thinkgreen from './images/thinkgreen.png';
 import cropdisease from './images/home-dec.png';
 import zipline from './images/images.jpg'
 import think from './images/thinkg.png';
+import mental from './images/mental.png';
 import { useState, useEffect } from 'react';
 
 
@@ -290,6 +291,20 @@ function App() {
 
   {/* 6th Work Item */}
   
+  <a href="https://mental-health-conversational-chatbot.streamlit.app/" target="_blank" rel="noopener noreferrer" className="block">
+    <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
+      <div className="relative h-full w-full aspect-[16/9]">
+        <img src={mental} alt="Mental health" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+      </div>
+      <div className="absolute bottom-6 left-0 w-full p-6 space-y-3 bg-gradient-to-t from-bottom-black to-transparent">
+        <h3 className="text-white font-extrabold text-xl">Mental health Conversational ChatBot</h3>
+        <p className="text-gray-200 font-semibold text-sm hidden md:block">
+        Mindful Companion is an AI-powered chatbot designed to provide a safe, supportive, and non-judgmental space for mental health conversations.
+        </p>
+      </div>
+      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
+    </div>
+  </a>
   <a href="https://charitecloned.netlify.app/" target="_blank" rel="noopener noreferrer" className="block">
     <div className="group relative bg-black rounded-3xl border border-gray-600 shadow-lg overflow-hidden h-80">
       <div className="relative h-full w-full aspect-[16/9]">
@@ -301,7 +316,7 @@ function App() {
           A clone of Meta's interface with modern design and functionality.
         </p>
       </div>
-      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div> {/* Darkish Shadow at Bottom */}
+      <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-transparent to-black"></div>
     </div>
   </a>
 
