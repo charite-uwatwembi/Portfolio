@@ -1,1 +1,1 @@
-My portfolio here, it is just showcasing my projects.
+I oresent to you my portfolio🙂‍↔️🥱it is just showcasing my projects.
