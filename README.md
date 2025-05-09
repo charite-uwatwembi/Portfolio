@@ -1,1 +1,1 @@
-I proudly present to you my portfolio🙂‍↔️🥱it is just showcasing my projects.
+I proudly present to you, my portfolio🙂‍↔️🥱it is just showcasing my projects.
